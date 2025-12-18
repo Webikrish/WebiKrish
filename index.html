@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebiKrish - Your Digital Growth Partner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="WhatsApp Image 2025-12-17 at 4.01.28 PM.jpeg">
+    <meta name="description" content="WebiKrish – Your Digital Growth Partner since 2025. We provide innovative web solutions, applications, and digital services for businesses and students. Certified excellence, on-time delivery, student-friendly support, and growth-focused strategies to drive measurable results.">
+
+    <style>
+        :root {
+            --primary-blue: #4361ee;
+            --secondary-purple: #7209b7;
+            --accent-pink: #f72585;
+            --accent-green: #4cc9f0;
+            --accent-yellow: #ffd166;
+            --black: #202124;
+            --dark-gray: #5f6368;
+            --light-gray: #f8f9fa;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, var(--primary-blue), var(--secondary-purple));
+            --gradient-accent: linear-gradient(135deg, var(--accent-pink), var(--accent-yellow));
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--black);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background: var(--gradient-accent);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        .section-title p {
+            color: var(--dark-gray);
+            max-width: 700px;
+            margin: 15px auto 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--gradient-primary);
+            color: var(--white);
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 1rem;
+            box-shadow: var(--shadow);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+            transition: var(--transition);
+        }
+
+        header.scrolled {
+            padding: 10px 0;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .logo-img {
+            height: 50px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .logo-text span {
+            color: var(--accent-pink);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 30px;
+        }
+
+        .nav-links a {
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-blue);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--primary-blue);
+            left: 0;
+            bottom: -5px;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a.active {
+            color: var(--primary-blue);
+        }
+
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding-top: 150px;
+            padding-bottom: 100px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: rgba(115, 9, 183, 0.05);
+            top: -300px;
+            right: -200px;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: rgba(247, 37, 133, 0.05);
+            bottom: -200px;
+            left: -100px;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .hero-text h1 {
+            font-size: 3.2rem;
+            margin-bottom: 20px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .hero-text h1 span {
+            color: var(--accent-pink);
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            color: var(--dark-gray);
+            margin-bottom: 30px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Highlights Section */
+        .highlights {
+            background-color: var(--light-gray);
+        }
+
+        .highlight-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .highlight-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 5px solid;
+            border-image: var(--gradient-primary);
+            border-image-slice: 1;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight-card i {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .highlight-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--black);
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+            color: var(--dark-gray);
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+
+        .mission-vision {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .mission, .vision {
+            background: var(--light-gray);
+            padding: 30px;
+            border-radius: 15px;
+            transition: var(--transition);
+            border-left: 5px solid;
+        }
+
+        .mission {
+            border-left-color: var(--primary-blue);
+        }
+
+        .vision {
+            border-left-color: var(--accent-pink);
+        }
+
+        .mission:hover, .vision:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+        }
+
+        .mission h3, .vision h3 {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .mission h3 i, .vision h3 i {
+            margin-right: 10px;
+        }
+
+        /* Founder Section */
+        .founder-section {
+            background-color: var(--light-gray);
+        }
+
+        .founder-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .founder-image {
+            flex: 1;
+            position: relative;
+            max-width: 300px;
+        }
+
+        .founder-image img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            filter: grayscale(20%);
+        }
+
+        .founder-image:hover img {
+            transform: scale(1.02);
+            filter: grayscale(0%);
+        }
+
+        .founder-info {
+            flex: 2;
+        }
+
+        .founder-info h3 {
+            font-size: 2rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .founder-title {
+            color: var(--accent-pink);
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .founder-quote {
+            font-style: italic;
+            padding: 20px;
+            background: var(--white);
+            border-left: 4px solid var(--primary-blue);
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: var(--shadow);
+        }
+
+        .founder-quote p {
+            color: var(--dark-gray);
+        }
+
+        .founder-quote .author {
+            text-align: right;
+            margin-top: 10px;
+            font-weight: 600;
+            color: var(--dark-blue);
+        }
+
+        .founder-details {
+            margin-top: 30px;
+        }
+
+        .detail-item {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .detail-item i {
+            color: var(--primary-blue);
+            margin-right: 15px;
+            margin-top: 5px;
+            width: 20px;
+        }
+
+        /* Student Services Section */
+        .student-services {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+        }
+
+        .student-services .section-title h2 {
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .student-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .student-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 5px solid;
+        }
+
+        .student-card:nth-child(1) {
+            border-top-color: var(--primary-blue);
+        }
+        .student-card:nth-child(2) {
+            border-top-color: var(--secondary-purple);
+        }
+        .student-card:nth-child(3) {
+            border-top-color: var(--accent-pink);
+        }
+
+        .student-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .student-icon {
+            height: 70px;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .student-icon i {
+            font-size: 2rem;
+            color: var(--white);
+        }
+
+        .student-content {
+            padding: 30px;
+        }
+
+        .student-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark-blue);
+        }
+
+        .student-features {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .student-features li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .student-features li i {
+            color: var(--accent-pink);
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+
+        .free-badge {
+            background: var(--gradient-accent);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        /* Services Section */
+        .services {
+            background-color: var(--white);
+        }
+
+        .service-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 5px solid var(--primary-blue);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-top-color: var(--accent-pink);
+        }
+
+        .service-icon {
+            height: 70px;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-icon i {
+            font-size: 2rem;
+            color: var(--white);
+        }
+
+        .service-content {
+            padding: 30px;
+        }
+
+        .service-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark-blue);
+        }
+
+        .service-features {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .service-features li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .service-features li i {
+            color: var(--accent-pink);
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Statistics Section */
+        .statistics {
+            background: var(--gradient-primary);
+            color: white;
+            text-align: center;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .stat-item {
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-text {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Certificates Section */
+        .certificates {
+            background-color: var(--light-gray);
+        }
+
+        .certificates-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .certificates-text {
+            flex: 1;
+        }
+
+        .certificates-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .certificates-text p {
+            margin-bottom: 20px;
+            color: var(--dark-gray);
+        }
+
+        .qr-verification {
+            flex: 1;
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .qr-code {
+            width: 200px;
+            height: 200px;
+            background: var(--white);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            padding: 15px;
+            border: 2px dashed var(--primary-blue);
+        }
+
+        .qr-code img {
+            max-width: 100%;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: var(--light-gray);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+        }
+
+        .contact-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .contact-info p {
+            margin-bottom: 30px;
+            color: var(--dark-gray);
+        }
+
+        .freelance-note {
+            background: linear-gradient(135deg, #ffd166, #f72585);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .contact-details {
+            margin-top: 30px;
+        }
+
+        .contact-detail {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .contact-detail i {
+            font-size: 1.2rem;
+            color: var(--primary-blue);
+            margin-right: 15px;
+            margin-top: 5px;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark-gray);
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+        }
+
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-size: 0.9rem;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .success-message {
+            background: #2ecc71;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        /* WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            z-index: 100;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--black);
+            color: var(--white);
+            padding: 70px 0 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        .qr-code img {
+    max-width: 150px;       /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .footer-logo-img {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+        }
+        .span-hide{
+            visibility: hidden;
+        }
+        .footer-logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .footer-logo-text span {
+            color: var(--accent-pink);
+        }
+
+        .footer-about p {
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+
+        .footer-links h4, .footer-services h4, .footer-contact h4 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .footer-links h4::after, .footer-services h4::after, .footer-contact h4::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            background: var(--accent-pink);
+            bottom: 0;
+            left: 0;
+        }
+
+        .footer-links ul, .footer-services ul {
+            list-style: none;
+        }
+
+        .footer-links li, .footer-services li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a, .footer-services a {
+            color: #aaa;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover, .footer-services a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+
+        .footer-contact p {
+            color: #aaa;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .footer-contact i {
+            margin-right: 10px;
+            color: var(--primary-blue);
+            margin-top: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--white);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .social-icons a:hover {
+            background: var(--primary-blue);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero-content, .about-content, .founder-content, .certificates-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text {
+                max-width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .hero-btns {
+                justify-content: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.8rem;
+            }
+            
+            .founder-image {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+            
+            .detail-item {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background: var(--white);
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: var(--transition);
+            }
+
+            .nav-links.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .nav-links li {
+                margin: 15px 0;
+            }
+
+            .hero-text h1 {
+                font-size: 2.3rem;
+            }
+
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            section {
+                padding: 60px 0;
+            }
+
+            .hero {
+                padding-top: 130px;
+                padding-bottom: 80px;
+            }
+
+            .hero-btns {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+            
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/916383003253?text=Hello%20WebiKrish!%20I'm%20interested%20in%20your%20services" 
+       class="whatsapp-float" 
+       target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <!-- Company Logo Placeholder -->
+                <div class="logo-img" style="
+                     background-image: url(WhatsApp\ Image\ 2025-12-17\ at\ 4.01.28\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* IMPORTANT */
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+                "></div>
+                <div class="logo-text">Webi<span>Krish</span></div>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#founder" class="nav-link">Started by</a></li>
+                <li><a href="#students" class="nav-link">For Students</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content - Single Page -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Your Digital <span>Growth Partner</span></h1>
+                        <p>We help businesses and students thrive in the digital world with cutting-edge web solutions, innovative applications, and reliable digital services that drive growth and success.</p>
+                        <div class="hero-btns">
+                            <a href="#contact" class="btn">Get Started</a>
+                            <a href="#students" class="btn btn-secondary">For Students</a>
+                            <a href="https://wa.me/916383003253?text=Hello%20WebiKrish!%20I'm%20interested%20in%20your%20services" 
+                               class="btn btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp Us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <!-- You can replace this with your 
+                         own image -->
+                         <img src="Gemini_Generated_Image_lmbv4hlmbv4hlmbv.png" alt="" style="border-radius: 20px;">
+                        <!-- <div style="
+                            width: 100%;
+                            height: 400px;
+                            background: var(--gradient-primary);
+                            border-radius: 20px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: white;
+                            font-size: 1.5rem;
+                            font-weight: bold;
+                        "> -->
+                            <!-- WebiKrish - Digital Solutions -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="highlights">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Choose WebiKrish?</h2>
+                    <p>We combine innovation with expertise to deliver exceptional digital solutions that drive measurable results for your business and academic needs.</p>
+                </div>
+                
+                <div class="highlight-cards">
+                    <div class="highlight-card">
+                        <i class="fas fa-medal"></i>
+                        <h3>Certified Excellence</h3>
+                        <p>Industry-recognized certifications ensuring quality and reliability in all our solutions.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>On-Time Delivery</h3>
+                        <p>We respect deadlines and deliver projects on time, every time, without compromising quality.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Student Friendly</h3>
+                        <p>Special support and free internship certificates for Diplamo in CSE,B.E(cse), BCA & BSc students.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Growth Focused</h3>
+                        <p>Solutions designed to drive measurable business growth and maximize ROI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Us</h2>
+                    <p>Learn more about our journey, mission, and the values that drive us</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Driving Digital Transformation Since 2025</h3>
+                        <p>WebiKrish was founded as a freelance digital agency with a vision to help businesses and students harness the power of digital technology. Our journey began with a small team of passionate developers and has grown into a trusted partner serving clients and students across multiple industries.</p>
+                        <p>We believe that technology should be an enabler, not a barrier. That's why we focus on creating intuitive, powerful digital solutions that solve real business problems and support academic success.</p>
+                        <p>As a freelance company, we offer flexible, personalized services tailored to each client's unique needs, without the overhead of traditional agencies.</p>
+                    </div>
+                    <div class="about-image">
+                        <!-- You can replace this with your own image -->
+                        <div style="
+                            width: 100%;
+    height: 400px;
+    background: url(ChatGPT\ Image\ Dec\ 18\,\ 2025\,\ 07_26_30\ PM.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    border-radius: 25px;
+    overflow: hidden; 
+                        ">
+                           <span class="span-hide">Freelance Digital Agency vbccvcv</span> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                        <p>To empower businesses and students with innovative, reliable, and scalable digital solutions that drive growth, enhance efficiency, and create competitive advantages.</p>
+                    </div>
+                    <div class="vision">
+                        <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                        <p>To become the most trusted digital partner for businesses and students, recognized for our commitment to excellence, innovation, and measurable success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section id="founder" class="founder-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Started by</h2>
+                    <p>Meet the visionary behind WebiKrish's success story</p>
+                </div>
+                
+                <div class="founder-content">
+                    <div class="founder-image">
+                        <!-- You can replace this with your own image -->
+                        <img src="WhatsApp Image 2025-12-16 at 9.55.22 PM.jpeg" alt="">
+                        <!-- <div style="
+                            width: 100%;
+                            height: 300px;
+                            background-image: url(w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+                            border-radius: 15px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: white;
+                            font-size: 1.2rem;
+                        ">
+                             <div style="text-align: center;">
+                                <i class="fas fa-user" style="font-size: 4rem; margin-bottom: 10px;"></i><br>
+                                Krishnamoorthy<br>
+                                <small>Founder & CEO</small>
+                            </div> 
+                        </div> -->
+                    </div>
+                    
+                    <div class="founder-info">
+                        <h3>Gopikrish</h3>
+                        <div class="founder-title">Freelance Web Developer</div>
+                        
+                        <p>With over 3 years of experience in digital technology and web solutions, Gopikrish founded WebiKrish in 2025 with a mission to democratize access to high-quality digital services for businesses and students.</p>
+                        
+                        <p>His expertise spans across web development, digital strategy, and emerging technologies. Under his leadership, WebiKrish has grown from a small freelance startup to a trusted digital partner for clients and students across various industries.</p>
+                        
+                        <div class="founder-quote">
+                            <p>"Technology should empower everyone. At WebiKrish, we're building bridges between ideas and reality, helping both businesses grow and students succeed in their academic journeys."</p>
+                            <div class="author">- Gopikrish</div>
+                        </div>
+                        
+                        <div class="founder-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <strong>Education:</strong> B.E in Computer Science
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Specialization:</strong> Web Development, Digital Solutions, Student Mentorship
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div>
+                                    <strong>Experience:</strong> 3+ years in Digital Technology & Web Solutions
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-cogs"></i>
+                                <div>
+                                    <strong>Expertise:</strong> Web Architecture, Digital Strategy, Student Project Guidance
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Services Section -->
+        <section id="students" class="student-services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>For Students</h2>
+                    <p>Special services for CSE, BCA, BSc (CSE) & B.E CSE students - Your college projects made simple!</p>
+                </div>
+                
+                <div class="student-cards">
+                    <div class="student-card">
+                        <div class="student-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="student-content">
+                            <div class="free-badge">FREE</div>
+                            <h3>Internship Certificates</h3>
+                            <p>Get recognized for your skills with our free internship certificates. Perfect for enhancing your resume and academic portfolio.</p>
+                            <ul class="student-features">
+                                <li><i class="fas fa-check"></i> Officially recognized certificates</li>
+                                <li><i class="fas fa-check"></i> Digital & printable formats</li>
+                                <li><i class="fas fa-check"></i> QR code verification</li>
+                                <li><i class="fas fa-check"></i> Valid for academic purposes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="student-card">
+                        <div class="student-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="student-content">
+                            <h3>College Projects & Reports</h3>
+                            <p>Complete your academic projects with our expert guidance. We help with development, documentation, and presentation.</p>
+                            <ul class="student-features">
+                                <li><i class="fas fa-check"></i> Full project development</li>
+                                <li><i class="fas fa-check"></i> Comprehensive documentation</li>
+                                <li><i class="fas fa-check"></i> Source code with explanation</li>
+                                <li><i class="fas fa-check"></i> Presentation support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="student-card">
+                        <div class="student-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="student-content">
+                            <h3>Technology Guidance</h3>
+                            <p>Learn the latest technologies with hands-on projects and personalized mentoring from industry experts.</p>
+                            <ul class="student-features">
+                                <li><i class="fas fa-check"></i> Web development projects</li>
+                                <li><i class="fas fa-check"></i> Mobile app development</li>
+                                <li><i class="fas fa-check"></i> Database design & implementation</li>
+                                <li><i class="fas fa-check"></i> Latest framework training</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 40px;">
+                    <p style="font-size: 1.2rem; color: var(--dark-gray); margin-bottom: 20px;">
+                        <strong>Perfect for:</strong> Diploma in CSE, BCA, BSc (Computer Science), B.E/B.Tech CSE students
+                    </p>
+                    <a href="https://wa.me/916383003253?text=Hello%20WebiKrish!%20I'm%20a%20student%20interested%20in%20your%20student%20services" 
+                       class="btn btn-whatsapp" target="_blank" style="display: inline-flex; align-items: center;">
+                        <i class="fab fa-whatsapp"></i> Get Student Support
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive digital solutions tailored to your business needs</p>
+                </div>
+                
+                <div class="service-cards">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Website Development</h3>
+                            <p>Custom, responsive websites built with the latest technologies to ensure optimal performance, security, and user experience across all devices.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Responsive Design</li>
+                                <li><i class="fas fa-check"></i> SEO Optimized</li>
+                                <li><i class="fas fa-check"></i> Fast Loading</li>
+                                <li><i class="fas fa-check"></i> CMS Integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Web Applications</h3>
+                            <p>Scalable, secure web applications designed to streamline business operations, improve efficiency, and drive productivity.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Custom Business Logic</li>
+                                <li><i class="fas fa-check"></i> API Integration</li>
+                                <li><i class="fas fa-check"></i> Real-time Updates</li>
+                                <li><i class="fas fa-check"></i> Advanced Security</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Certificate Verification System</h3>
+                            <p>Secure, tamper-proof digital certificate verification solutions with blockchain integration for authenticity validation.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Blockchain Security</li>
+                                <li><i class="fas fa-check"></i> Instant Verification</li>
+                                <li><i class="fas fa-check"></i> QR Code Integration</li>
+                                <li><i class="fas fa-check"></i> Audit Trail</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-qrcode"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>QR Code Solutions</h3>
+                            <p>Custom QR code generation and management systems for marketing, payments, authentication, and information sharing.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Dynamic QR Codes</li>
+                                <li><i class="fas fa-check"></i> Analytics Dashboard</li>
+                                <li><i class="fas fa-check"></i> Bulk Generation</li>
+                                <li><i class="fas fa-check"></i> Custom Designs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Digital Support Services</h3>
+                            <p>Comprehensive technical support, maintenance, and optimization services to ensure your digital assets perform at their best.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> 24/7 Monitoring</li>
+                                <li><i class="fas fa-check"></i> Regular Updates</li>
+                                <li><i class="fas fa-check"></i> Performance Optimization</li>
+                                <li><i class="fas fa-check"></i> Security Patches</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>E-commerce Solutions</h3>
+                            <p>Complete e-commerce platforms with payment integration, inventory management, and customer relationship tools.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Payment Gateway</li>
+                                <li><i class="fas fa-check"></i> Inventory Management</li>
+                                <li><i class="fas fa-check"></i> Order Tracking</li>
+                                <li><i class="fas fa-check"></i> Customer Dashboard</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics">
+            <div class="container">
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number">70+</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">60+</div>
+                        <div class="stat-text">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-text">Student Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-text">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Certificates & Verification</h2>
+                    <p>Validate our certifications and credentials using our QR verification system</p>
+                </div>
+                
+                <div class="certificates-content">
+                    <div class="certificates-text">
+                        <h3>Verified Credentials & Certifications</h3>
+                        <p>WebiKrish maintains industry-recognized certifications that validate our expertise and commitment to quality standards. Our certificates are digitally signed and can be verified using the QR code system.</p>
+                        <p>We also provide <strong>FREE internship certificates</strong> for students with QR verification to ensure authenticity for academic and professional purposes.</p>
+                        <p>Our verification system uses secure technology to maintain a reliable record of all issued certificates, providing trust and credibility.</p>
+                        
+                        <div style="margin-top: 30px;">
+                            <h4>Student Benefits Include:</h4>
+                            <ul style="margin-top: 15px; padding-left: 20px;">
+                                <li>Free Internship Certificates with QR Verification</li>
+                                <li>Complete College Project Development</li>
+                                <li>Comprehensive Project Reports</li>
+                                <li>Source Code with Documentation</li>
+                                <li>Technology Guidance & Mentoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="qr-verification">
+                        <h3 style="margin-bottom: 20px; color: var(--primary-blue);">Verify Certificate</h3>
+                        <p>Scan the QR code to verify the authenticity of a WebiKrish certificate</p>
+                        
+                        <div class="qr-code" style=" display: flex;
+    flex-direction: column; /* Keep icon/text below image */
+    align-items: center;    /* Center content horizontally */
+    justify-content: center; /* Center content vertically if needed */
+    gap: 10px">
+                            <!-- QR Code Placeholder - In a real implementation, this would be generated dynamically -->
+                             
+                            <div style="text-align: center; width: 100%;">
+                                <div style="font-size: 3rem; color: var(--primary-blue); margin: 5px;">
+                                    <img src="qrbee-qr-1766038016622.png" alt="">
+                                </div>
+                                <p style="font-size: 0.9rem; color: var(--dark-gray);">Scan with phone camera</p>
+                            </div>
+                        </div>
+                        
+                        <p style="font-size: 0.9rem; color: var(--dark-gray); margin-top: 15px;">Scan this QR code with any smartphone camera or QR scanner app to verify certificate authenticity.</p>
+                        
+                        <div style="margin-top: 20px; background: var(--light-gray); padding: 15px; border-radius: 10px;">
+                            <p style="margin-bottom: 5px;"><strong>Example Certificate ID:</strong> WEBIKRISH-INT-2025-005</p>
+                            <p style="margin-bottom: 5px;"><strong>Issued To:</strong> Student Internship Program</p>
+                            <p style="margin-bottom: 5px;"><strong>Issue Date:</strong> Dec 15, 2025</p>
+                            <p style="margin-bottom: 5px;"><strong>Validity:</strong> Permanent Record</p>
+                            <p style="margin-bottom: 5px;"><strong>Certificate Type:</strong> Web Development Internship</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact Us</h2>
+                    <p>Get in touch with us for inquiries, quotes, project discussions, or student support</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Start Your Digital Journey</h3>
+                        <p>We're ready to help you transform your digital presence. Reach out to us with your project requirements, and we'll provide a tailored solution that meets your business or academic objectives.</p>
+                        
+                        <div class="freelance-note">
+                            <i class="fas fa-star"></i> Note: We are a freelance company offering flexible, personalized services without fixed office hours.
+                        </div>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>webikrish@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone / WhatsApp</h4>
+                                    <p>+91 6383003253</p>
+                                    <p><small>Click to chat on WhatsApp</small></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Chennai, Tamil Nadu, India</p>
+                                    <p><small>Freelance services available worldwide</small></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Availability</h4>
+                                    <p>Flexible hours by appointment</p>
+                                    <p><small>Online meetings available</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="margin-top: 30px;">
+                            <h4>Quick WhatsApp Connect:</h4>
+                            <a href="https://wa.me/916383003253?text=Hello%20WebiKrish!%20I'm%20interested%20in%20your%20services" 
+                               class="btn btn-whatsapp" target="_blank" style="margin-top: 10px;">
+                                <i class="fab fa-whatsapp"></i> Chat on WhatsApp Now
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="error-message" id="nameError">Please enter your name</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error-message" id="emailError">Please enter a valid email address</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone / WhatsApp Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="category">I am a</label>
+                                <select id="category" name="category">
+                                    <option value="">Select category</option>
+                                    <option value="business">Business Client</option>
+                                    <option value="student-cse">CSE Student</option>
+                                    <option value="student-bca">BCA Student</option>
+                                    <option value="student-bsc">BSc (CSE) Student</option>
+                                    <option value="student-other">Other Student</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="website">Website Development</option>
+                                    <option value="webapp">Web Applications</option>
+                                    <option value="certificate">Certificate Verification System</option>
+                                    <option value="qr">QR Code Solutions</option>
+                                    <option value="support">Digital Support Services</option>
+                                    <option value="ecommerce">E-commerce Solutions</option>
+                                    <option value="internship">Free Internship Certificate</option>
+                                    <option value="project">College Project & Report</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your project requirements or student needs..." required></textarea>
+                                <div class="error-message" id="messageError">Please enter your message</div>
+                            </div>
+                            
+                            <button type="submit" class="btn">Send Message</button>
+                            
+                            <div class="success-message" id="successMessage">
+                                Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <!-- Company Logo Placeholder -->
+                        <div class="footer-logo-img" style="
+                            background-image: url(WhatsApp\ Image\ 2025-12-17\ at\ 4.01.28\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* IMPORTANT */
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+                        "></div>
+                        <div class="footer-logo-text">Webi<span>Krish</span></div>
+                    </div>
+                    <p>Your trusted freelance partner for digital transformation. We deliver innovative web solutions, applications, and digital services that drive business growth and student success since 2025.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/gopi-krish-94a500385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/webikrish?igsh=N2xnd2l0OWR3cWNw" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/916383003253" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#founder">Founder</a></li>
+                        <li><a href="#students">For Students</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Website Development</a></li>
+                        <li><a href="#services">Web Applications</a></li>
+                        <li><a href="#certificates">Certificate Verification</a></li>
+                        <li><a href="#services">QR Code Solutions</a></li>
+                        <li><a href="#students">Student Projects</a></li>
+                        <li><a href="#students">Free Internship Certificates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> webikrish@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 6383003253</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</p>
+                    <p><i class="fas fa-briefcase"></i> Freelance Digital Agency</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WebiKrish. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #f72585;"></i> by WebiKrish Team</p>
+                <p style="margin-top: 10px; font-size: 0.8rem;">Specializing in services for Diploma CSE, BCA, BSc (CSE) & B.E CSE students</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Close mobile menu if open
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                    
+                    // Scroll to target
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Update active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.nav-link');
+        
+        function updateActiveNavLink() {
+            let scrollPosition = window.scrollY + 100;
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    navItems.forEach(item => {
+                        item.classList.remove('active');
+                        if (item.getAttribute('href') === `#${sectionId}`) {
+                            item.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', updateActiveNavLink);
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Contact Form Validation
+        const contactForm = document.getElementById('contactForm');
+        const nameInput = document.getElementById('name');
+        const emailInput = document.getElementById('email');
+        const messageInput = document.getElementById('message');
+        const nameError = document.getElementById('nameError');
+        const emailError = document.getElementById('emailError');
+        const messageError = document.getElementById('messageError');
+        const successMessage = document.getElementById('successMessage');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            let isValid = true;
+            
+            // Reset error messages
+            nameError.style.display = 'none';
+            emailError.style.display = 'none';
+            messageError.style.display = 'none';
+            successMessage.style.display = 'none';
+            
+            // Validate name
+            if (nameInput.value.trim() === '') {
+                nameError.style.display = 'block';
+                isValid = false;
+            }
+            
+            // Validate email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(emailInput.value.trim())) {
+                emailError.style.display = 'block';
+                isValid = false;
+            }
+            
+            // Validate message
+            if (messageInput.value.trim() === '') {
+                messageError.style.display = 'block';
+                isValid = false;
+            }
+            
+            // If form is valid, show success message
+            if (isValid) {
+                successMessage.style.display = 'block';
+                contactForm.reset();
+                
+                // Hide success message after 5 seconds
+                setTimeout(() => {
+                    successMessage.style.display = 'none';
+                }, 5000);
+            }
+        });
+        
+        // Form input validation on blur
+        nameInput.addEventListener('blur', () => {
+            if (nameInput.value.trim() === '') {
+                nameError.style.display = 'block';
+            }
+        });
+        
+        emailInput.addEventListener('blur', () => {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(emailInput.value.trim())) {
+                emailError.style.display = 'block';
+            }
+        });
+        
+        messageInput.addEventListener('blur', () => {
+            if (messageInput.value.trim() === '') {
+                messageError.style.display = 'block';
+            }
+        });
+        
+        // Hide error messages when user starts typing
+        nameInput.addEventListener('input', () => {
+            nameError.style.display = 'none';
+        });
+        
+        emailInput.addEventListener('input', () => {
+            emailError.style.display = 'none';
+        });
+        
+        messageInput.addEventListener('input', () => {
+            messageError.style.display = 'none';
+        });
+        
+        // WhatsApp direct click
+        function openWhatsApp() {
+            const message = "Hello WebiKrish! I'm interested in your services";
+            window.open(`https://wa.me/916383003253?text=${encodeURIComponent(message)}`, '_blank');
+        }
+        
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', () => {
+            // Add scroll effect on initial load
+            if (window.scrollY > 50) {
+                document.getElementById('header').classList.add('scrolled');
+            }
+            
+            // Set initial active nav link
+            updateActiveNavLink();
+            
+            // Add WhatsApp click handlers
+            document.querySelectorAll('.btn-whatsapp').forEach(btn => {
+                if (!btn.hasAttribute('target')) {
+                    btn.addEventListener('click', openWhatsApp);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
